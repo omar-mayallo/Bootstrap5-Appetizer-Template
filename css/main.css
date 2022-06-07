@@ -1,0 +1,18 @@
+:root {
+  --main-color: #ffa323;
+  --heading-color: #333;
+  --text-color: #666;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+/*______NAVBAR______*/
+nav {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
