@@ -12,7 +12,64 @@ body {
   font-family: "Poppins", Arial, sans-serif;
   scroll-behavior: smooth;
 }
+.Text {
+  color: var(--text-color);
+}
+.sec-name {
+  color: var(--main-color);
+  font-size: 100px;
+  font-family: "Miss Fajardose", cursive;
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sec-title {
+  font-size: 50px;
+  font-weight: 900;
+}
 /*______NAVBAR______*/
 nav {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/*______MAIN_CAROUSEL______*/
+main .carousel-item {
+  height: 500px;
+  position: relative;
+}
+main .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+}
+main .carousel-item .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+main .carousel-item .carousel-caption h5 {
+  text-transform: uppercase;
+  font-size: 5vw;
+  font-family: "Monoton", cursive;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+/*______RESTAURANT_SECTION______*/
+.restaurant-section .res-sec-head {
+  position: relative;
+}
+/*______COUNTER_SECTION______*/
+.counter-section {
+  background-color: black;
+  color: var(--main-color);
+}
+.counter-section .count {
+  font-size: 25px;
+}
+.counter-section .catagory {
+  font-size: 20px;
+  font-weight: 300;
 }
